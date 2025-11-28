@@ -1,0 +1,17 @@
+report esercizio 28.11.2025
+
+-ho configurato 2 switch con 4 VLAN differenti e ho creato 4 subnet
+
+-col comando ping ho verificato che i pacchetti dalla rete lebron 192.168.2.11 arrivino effettivamenmte alla rete lebron 192.168.2.12
+
+-il processo avviene grazie al trunk eseguito dato che le reti si trovano su 2 switch diversi
+
+-i vantaggi dell'utilizzo delle VLAN sono che : - è presente maggiore sicurezza perchè separano il traffico tra gruppi di dispositivi impedendo l'accesso ad utenti non autorizzati 
+
+                                                - una migliore gestione della rete perchè permette il ragruppamento di dispositivi in base a funzioni, reparti o progetti
+
+                                                - migliori prestazioni perchè la segmentazione della rete permette di distribuire meglio il carico e migliorare i tempi di risposta
+
+-svantaggi : - complessità nella configurazione e gestione, per esempio un errata configurazione può creare problemi di connetività difficili da diagnosticare
+             - maggiore rischio di problemi di sicurezza 
+             - dipendenza dalla qualità degli switch
